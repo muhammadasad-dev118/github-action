@@ -1,0 +1,12 @@
+name: M Asad
+
+on:
+     push:
+           branches: [main]
+
+ jobs:
+        demo:
+       run-on: ubantu-latest
+       steps:
+          - names: Greetings
+            run: echo "hello from Asad"
